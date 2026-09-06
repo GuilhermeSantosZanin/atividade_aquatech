@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    background-color: black;
+    border-bottom: 3px solid #32b9cd;
+}
+
+.header-container {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo {
+    color: #32b9cd;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+}
+
+.link {
+    color: #e3b062;
+    text-decoration: none;
+}
+
+.agora {
+    font-weight: bold;
+}
+
+.banner {
+    height: 500px;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frase {
+    color: white;
+    font-size: 36px;
+    width: 300px;
+}
+
+.destaque {
+    font-weight: bold;
+}
+
+.social {
+    background-color: #e5e5e5;
+    padding: 50px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 30%;
+    text-align: center;
+}
+
+.icone {
+    width: 100px;
+}
+
+.subtitulo {
+    color: #e6005a;
+    margin: 15px;
+}
+
+.texto {
+    font-size: 15px;
+}
+
+.footer {
+    background-color: #32b9cd;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.version {
+    font-size: 14px;
+}
+
+.login {
+    height: 540px;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.login-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 500px;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    padding: 25px 50px;
+}
+
+.titulo-card {
+    color: #e6005a;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome-campo {
+    color: #e6005a;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.entrada {
+    height: 35px;
+    border: 2px solid #32b9cd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.botao {
+    width: 100px;
+    height: 35px;
+    margin: auto;
+    background-color: #e6005a;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.footer-login {
+    height: 25px;
+    background-color: #32b9cd;
+}
+
+.card-cadastro {
+    width: 500px;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+
+.formulario-cadastro {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-cadastro {
+    height: 25px;
+    background-color: #32b9cd;
+}
